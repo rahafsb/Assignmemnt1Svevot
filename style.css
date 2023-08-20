@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    background-size: contain;
+    background-color: #e4dcdc; 
+    font-family: 'Alkatra', cursive;
+}
+nav{
+    background: #352e2e;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: #808080;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav li a{
+    color: white;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active, a:hover {
+    background: #808080;
+    transition: .5s;
+}
+h1 {
+    margin: 30vh auto;
+    text-align: center;
+    position: relative;
+}
+h1::before {
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: #352e2e;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+}
+h1::after {
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: #352e2e;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+}
+
+span {
+    background: #e4dcdc;
+}
+h3{
+    margin-bottom: 2rem;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+#input1{
+    width: 50px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    margin: 0 10px;
+    pointer-events: none;
+}
+#input2{
+    width: 50px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    margin: 0 10px;
+    pointer-events: none;
+}
+
+#likebtn{
+    color: black;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+#dislikebtn {
+    color: black;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
